@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Stint+Ultra+Condensed&display=swap');
+:root{
+    --main-bg-colour: #2874f0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    height: 60px;
+    background:var(--main-bg-colour);
+
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 80px;
+    padding: 0 25px;
+}
+nav ul{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+nav ul li{
+    list-style: none;
+    padding: 0 32px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+}
+nav ul li a:hover{
+    color: black;
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+    
+}
+.search input{
+    width: 30vw;
+    height: 27px;
+    border-radius: 6px;
+    margin: 0 16px 0 56px;
+    padding: 0 12px;
+    
+
+}
+.search button{
+    font-family:  'Lato', sans-serif;
+    font-weight: bolder;
+   
+}
+.search button:hover{
+    font-size: 18px;
+}
+.slider{
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+
+.card{
+    font-family: 'Signika Negative', sans-serif;
+    max-width: 91vw;
+    margin: auto;
+}
+.cards{
+    display: flex;
+    overflow: hidden;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+.card h2{
+    font-family: 'Lato', sans-serif;;
+}
+
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+footer{
+    height: 10vh;
+    background-color:var(--main-bg-colour);
+    font-family: 'Lato', sans-serif;
+    color: white;
+    
+}
+/* ################## about page ############### */
+.about{
+    padding: 5rem 6rem;
+   
+}
+.lg-heading{
+    border-bottom: 6px solid rgb(218, 113, 113);
+    font-size: 50px;
+    font-family:  'Signika Negative', sans-serif;
+    width: 90%;
+    font-family: 'Stint Ultra Condensed', cursive;
+
+}
+.container2 p{
+    font-family: 'Crimson Text', serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+.about-wrapper{
+    text-align: center;
+    margin-top: 3rem;
+}
+.about-wrapper ul{
+    list-style: none;
+}
+.about-wrapper li::before{
+    content: '\2713';
+    color: #e63946;
+    font-weight: bold;
+    padding-right: 1rem;
+
+}
+.banner-left{
+    float: left;
+    width: 50%;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+
+
+}
+.banner-right{
+    float: right;
+    width: 50%;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+
+
+}
+.about-wrapper::after{
+    content: '';
+    display: block;
+    clear: both;
+
+}
+.counts{
+
+    margin-top: 3rem;
+}
+.count-item{
+    float: left;
+    width: 24%;
+    text-align: center;
+}
+.counts::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.count-item span{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #e63946;
+}
+.count-item p{
+    font-family: 'Crimson Text', serif;
+    font-weight: 700;
+    color: grey;
+    font-size: 18px;
+   
+}
+.cta-banner{
+    background: #eb6974;
+    color: white;
+    padding: 1rem;
+    box-shadow: 5px 5px 10px #000000;
+    margin-top: 4rem;
+    width: 80%;
+    text-align: center;
+    margin-left: 5rem;
+    text-align: right;
+    
+}
+.cta-banner-left{
+    width: 60%;
+    float: left;
+    font-family: 'Crimson Text', serif;
+}
+.cta-banner-right{
+    width: 40%;
+    float: right;
+}
+.cta-line{
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+.btn-cta{
+    text-align: center;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    border: 1px solid rgb(192, 143, 143);
+    padding: 0.3em;
+    color: #f4f4f4;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.cta-banner::after{
+    content: '';
+    display: block;
+    clear: both;
+}
