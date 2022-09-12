@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: rgb(44, 36, 36);
+    height: 65px;
+}
+.navbar ul{
+    display: block;
+    text-align: right;
+    
+}
+.container li{
+    display: inline-block;
+    padding: 14px;
+    
+}
+.container ul li a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 22px;
+}
+.logo{
+    color: white;
+    font-size: 22px;
+    background-color: red;
+    border-radius: 40%;
+    display: block;
+    width: 60px;
+    margin-top: -3%;
+    text-align: center;
+    border: 3px solid green;
+}
+.image{
+    background: url("https://source.unsplash.com/1600x500/?Apple,watch");
+    height: 65vh;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    margin-top: 2%;
+    margin-left: 77px;
+    margin-right: 77px;
+    max-width: 100%;
+    background-size: cover;
+
+
+}
+.text{ 
+    width: 30%;
+    font-size: 25px;
+    margin-top: 10rem;
+    margin-left: 6rem;
+}
+.small{
+    font-size: 20px;
+    font-style: italic;
+    color: #FF9933
+}
+.medium{
+    color: white
+
+}
+.big{
+    font-size: 40px;
+    font-weight: bolder;
+    color: green;
+}
+.heading{
+    padding: 5px 0;
+}
+.btn{
+    margin-left: 13vh;
+    margin-top: 6vh;
+    height: 50px;
+    text-align: center;
+    background: #d5d5d5;
+    color: #060505;
+    width: 12%;
+    border-radius: 50px;
+    font-size: 23px;
+    font-weight: 700;
+}
