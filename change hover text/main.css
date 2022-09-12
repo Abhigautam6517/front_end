@@ -1,0 +1,30 @@
+p{
+    text-align: center;
+} 
+a{
+    width:20em;
+    height:5em;
+    box-shadow:inset 34px 0px 0px -15px #88bd40;
+    background-color:#000000 ;
+    border:1px solid #ffffff;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:9px 23px;
+    text-decoration:none;
+    text-shadow:0px -1px 0px #7a2a1d;
+}
+a:hover span {
+    display:none
+}
+a:hover {
+    background-color:#4c4c4c;
+}
+        
+
+a:hover:before {
+    content:"click me"
+}
